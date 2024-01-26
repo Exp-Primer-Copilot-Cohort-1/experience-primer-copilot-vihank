@@ -28,3 +28,4 @@ app.get('/api/comments', function(req, res) {
 app.post('/api/comments', function(req, res) {
     var newComment = {
         id: Date.now(),
+    };})
